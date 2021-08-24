@@ -71,7 +71,7 @@
   <SearchSection api_request_params={api_request_params} bStructuredSearch={bStructuredSearch} />
 </Header>
 
-<div id="content">
+<div id="content" style="margin-top: 10px;">
   <div class="sidebar">
     <ResultsList bind:current_result reverse_search={false} />
   </div>
