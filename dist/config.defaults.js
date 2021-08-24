@@ -1,10 +1,10 @@
 // You can overwrite any defaults in dist/theme/config.theme.js
 
 let Nominatim_Config = {
-  Page_Title: 'Nominatim Demo',
+  Page_Title: 'Адресна геобаза данни',
 
   // Where Nominatim API runs. Remember to add port if needed and trailing slash.
-  Nominatim_API_Endpoint: 'http://localhost/nominatim/',
+  Nominatim_API_Endpoint: 'http://62.73.121.212:8083/',
 
   // Additional request headers for Nominatim API.
   Nominatim_API_Endpoint_Headers: {},
