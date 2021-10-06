@@ -29,5 +29,5 @@ let Nominatim_Config = {
   Map_Tile_URL: 'https://{s}.tile.osm.org/{z}/{x}/{y}.png',
 
   // Can be text or HTML. To hide set to ''
-  Map_Tile_Attribution: '<a href="https://osm.org/copyright">OpenStreetMap contributors</a>'
+  Map_Tile_Attribution: '<a href="https://aquagis.bg">Aquagis.bg</a>'
 };

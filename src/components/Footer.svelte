@@ -11,9 +11,9 @@
 
 <footer>
   <p class="disclaimer">
-    Addresses and postcodes are approximate
+    <!-- Addresses and postcodes are approximate -->
   </p>
   <p class="copyright">
-    &copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors
+    &copy; <a href="https://aquagis.bg">Aquagis.bg</a>
   </p>
 </footer>

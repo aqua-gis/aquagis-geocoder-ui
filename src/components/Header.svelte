@@ -83,11 +83,13 @@
             <PageLink page="search" extra_classes="nav-link {view === 'search' ? 'active' : ''}">Търсене</PageLink>
           </li>
           <li class="nav-item">
-            <ReverseLink lat={map_lat} lon={map_lon} extra_classes="nav-link {view === 'reverse' ? 'active' : ''}">Reverse</ReverseLink>
+            <ReverseLink lat={map_lat} lon={map_lon} extra_classes="nav-link {view === 'reverse' ? 'active' : ''}">Търсебе по координати</ReverseLink>
           </li>
+          <!--
           <li class="nav-item">
             <PageLink page="details" extra_classes="nav-link {view === 'details' ? 'active' : ''}">Search By ID</PageLink>
           </li>
+          -->
         </ul>
       </div>
       <!-- Right aligned links -->

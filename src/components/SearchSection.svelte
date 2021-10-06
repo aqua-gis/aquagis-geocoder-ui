@@ -158,6 +158,7 @@
 </div> <!-- /tab-content -->
 
 <!-- Additional options -->
+<!--
 <details id="searchAdvancedOptions">
   <summary><small>Допълнителни опции</small></summary>
   <ul>
@@ -219,6 +220,7 @@
     </li>
   </ul>
 </details>
+-->
 
 <style>
   .nav-tabs {

@@ -40,14 +40,14 @@
 
 <UrlSubmitForm page="reverse">
   <div class="col-auto">
-    <label for="reverse-lat">lat</label>
+    <label for="reverse-lat">Географска ширина</label>
   </div>
   <div class="col-auto">
     <input id="reverse-lat"
            name="lat"
            type="text"
            class="form-control form-control-sm d-inline"
-           placeholder="latitude"
+           placeholder="Географска ширина"
            pattern="^-?\d+(\.\d+)?$"
            bind:value={lat}
            on:change={maybeSplitLatitude} />
@@ -59,19 +59,19 @@
        title="switch lat and lon">&lt;&gt;</a>
   </div>
   <div class="col-auto">
-    <label for="reverse-lon">lon</label>
+    <label for="reverse-lon">Географска дължина</label>
   </div>
   <div class="col-auto">
     <input id="reverse-lon"
            name="lon"
            type="text"
            class="form-control form-control-sm"
-           placeholder="longitude"
+           placeholder="Географска дължина"
            pattern="^-?\d+(\.\d+)?$"
            bind:value={lon} />
   </div>
   <div class="col-auto">
-    <label for="reverse-zoom">max zoom</label>
+    <label for="reverse-zoom">масимален мащаб</label>
   </div>
   <div class="col-auto">
     <select id="reverse-zoom" name="zoom" class="form-select form-select-sm" bind:value={zoom}>
