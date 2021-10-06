@@ -64,23 +64,23 @@
         <span class="type">{formatLabel(aResult)}</span>
         <p class="coords">{aResult.lat},{aResult.lon}</p>
 
-        <DetailsLink extra_classes="btn btn-outline-secondary btn-sm" feature={aResult}>details</DetailsLink>
+        <DetailsLink extra_classes="btn btn-outline-secondary btn-sm" feature={aResult}>детайли</DetailsLink>
       </div>
     {/each}
 
     {#if sMoreURL && !reverse_search}
       <div class="more">
         <a class="btn btn-primary" href="{sMoreURL}">
-          Search for more results
+          Още резултати
         </a>
       </div>
     {/if}
   </div>
 {:else if aSearchResults}
   {#if reverse_search}
-    <div id="intro" class="sidebar">Search for coordinates or click anywhere on the map.</div>
+    <div id="intro" class="sidebar">Търсете по коордианти или кликнете на картата.</div>
   {:else}
-    <div class="noresults">No search results found</div>
+    <div class="noresults">Няма намерени резултати</div>
   {/if}
 {:else}
   <Welcome/>

@@ -46,7 +46,7 @@
   }
 </style>
 
-<div id="last-updated" class="container-fluid py-2 px-4 mb-3">
+<div id="last-updated" class="container-fluid py-2 px-4 mb-3" style="display: none;">
   <div id="loading" class="py-2 px-4">
     <div class="spinner-border spinner-border-sm text-primary me-1" role="status"></div>
     Loading data from API ...

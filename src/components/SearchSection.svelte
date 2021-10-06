@@ -79,10 +79,10 @@
 
 <ul class="nav nav-tabs">
   <li class="nav-item">
-    <a class="nav-link" class:active={!bStructuredSearch} data-bs-toggle="tab" href="#simple">Simple</a>
+    <a class="nav-link" class:active={!bStructuredSearch} data-bs-toggle="tab" href="#simple">Бързо</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" class:active={bStructuredSearch} data-bs-toggle="tab" href="#structured">Structured</a>
+    <a class="nav-link" class:active={bStructuredSearch} data-bs-toggle="tab" href="#structured">Структурирано</a>
   </li>
 </ul>
 
@@ -94,11 +94,11 @@
                name="q"
                type="text"
                class="form-control form-control-sm"
-               placeholder="Search"
+               placeholder="Адрес"
                value="{api_request_params.q || ''}" />
       </div>
       <div class="col-auto">
-        <button type="submit" class="btn btn-primary btn-sm mx-1">Search</button>
+        <button type="submit" class="btn btn-primary btn-sm mx-1">Търси</button>
         <input type="hidden" name="viewbox" value="{sViewBox || ''}" />
         <input type="hidden" name="dedupe" value="{!api_request_params.dedupe ? '' : 1}" />
         <input type="hidden" name="bounded" value="{api_request_params.bounded ? 1 : ''}" />
@@ -114,36 +114,36 @@
     <UrlSubmitForm page="search">
       <div class="col-auto">
         <input name="street" type="text" class="form-control form-control-sm me-1"
-               placeholder="House number/Street"
+               placeholder="Номер на улица"
                value="{api_request_params.street || ''}" />
       </div>
       <div class="col-auto">
         <input name="city" type="text" class="form-control form-control-sm me-1"
-               placeholder="City"
+               placeholder="Населено място"
                value="{api_request_params.city || ''}" />
       </div>
       <div class="col-auto">
         <input id="county" name="county" type="text" class="form-control form-control-sm me-1"
-               placeholder="County"
+               placeholder="Област"
                value="{api_request_params.county || ''}" />
       </div>
       <div class="col-auto">
         <input name="state" type="text" class="form-control form-control-sm me-1"
-               placeholder="State"
+               placeholder="Община"
                value="{api_request_params.state || ''}" />
       </div>
       <div class="col-auto">
         <input name="country" type="text" class="form-control form-control-sm me-1"
-               placeholder="Country"
+               placeholder="Държава"
                value="{api_request_params.country || ''}" />
       </div>
       <div class="col-auto">
         <input name="postalcode" type="text" class="form-control form-control-sm me-1"
-               placeholder="Postal Code"
+               placeholder="Пощенски код"
                value="{api_request_params.postalcode || ''}" />
       </div>
       <div class="col-auto">
-        <button type="submit" class="btn btn-primary btn-sm">Search</button>
+        <button type="submit" class="btn btn-primary btn-sm">Търси</button>
         <input type="hidden" name="viewbox" value="{sViewBox || ''}" />
         <input type="hidden" name="dedupe" value="{!api_request_params.dedupe ? '' : 1}" />
         <input type="hidden" name="bounded" value="{api_request_params.bounded ? 1 : ''}" />
@@ -158,8 +158,9 @@
 </div> <!-- /tab-content -->
 
 <!-- Additional options -->
+<!--
 <details id="searchAdvancedOptions">
-  <summary><small>Advanced options</small></summary>
+  <summary><small>Допълнителни опции</small></summary>
   <ul>
     <li>
       <div class="form-check form-check-inline">
@@ -219,6 +220,7 @@
     </li>
   </ul>
 </details>
+-->
 
 <style>
   .nav-tabs {
